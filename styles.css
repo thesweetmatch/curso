@@ -118,11 +118,18 @@ p {
     margin-top: 0vh;
 }
 
+.buttom-arrow{
+    position: relative;
+    display: inline-block;
+}
+
 .arrow-img {
-    position: relative;;
-    width: 120px;
-    left: -24px;
-    bottom: -22px;
+    position: absolute;
+            top: 47px; /* Ajuste este valor conforme necessário */
+            left: 116%;
+            transform: translateX(-50%);
+            width: 120px; /* Ajuste o tamanho conforme necessário */
+            height: auto;
     animation: piscar 0.8s infinite; /* 1s para a duração da animação, infinite para repetir */
 }
 
@@ -141,6 +148,7 @@ p {
     color: #F0ECEA;
     padding: 20px 20px; /* Button size */
     border: 2px solid var(--foreground);
+    border: none;
     border-radius: 5px; /* Round corners */
     text-decoration: none;
     box-shadow: 0 2px 4px #2f2f2f;
@@ -237,8 +245,9 @@ p {
         grid-template-columns: 1fr;
       }
 
-      .chef-img{
+    .chef-img{
         margin-top: 70px;
+        margin-left: 15%;
         width: 50vh;
     }
 
