@@ -243,6 +243,7 @@ p {
 
     .block-1 {
         grid-template-columns: 1fr;
+        justify-items: center;
       }
 
     .chef-img{
