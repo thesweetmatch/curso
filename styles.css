@@ -118,15 +118,11 @@ p {
     margin-top: 0vh;
 }
 
-.buttom-arrow{
-    position: relative;
-}
-
 .arrow-img {
-    position: absolute;
+    position: relative;;
     width: 120px;
-    left: 140px;
-    bottom: 4px;
+    left: -24px;
+    bottom: -22px;
     animation: piscar 0.8s infinite; /* 1s para a duração da animação, infinite para repetir */
 }
 
